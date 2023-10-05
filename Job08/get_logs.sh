@@ -4,7 +4,7 @@
 username="eleat"
 
 # Chemin vers le répertoire de sauvegarde
-backup_dir=~/Job08/Backup.
+backup_dir=~Job08/Backup.
 
 
 # Obtenir le nombre de connexions pour l'utilisateur
@@ -20,6 +20,8 @@ echo "$connection_count" > "$filename"
 
 # Archivez le fichier
 tar -cf "$filename.tar" "$filename"
+
+rm "$filename"
 
 mv "$filename.tar" "$backup_dir"
 
