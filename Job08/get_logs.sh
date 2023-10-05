@@ -4,7 +4,7 @@
 username="eleat"
 
 # Chemin vers le répertoire de sauvegarde
-backup_dir=~Job08/Backup.
+backup_dir=~/shell-exe/Job08/Backup.
 
 
 # Obtenir le nombre de connexions pour l'utilisateur
